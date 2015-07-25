@@ -6,6 +6,22 @@ section{
 	padding-top:50px;
 }
 
-.navbar-brand{
-	color : black;
+#padding_top_translation_btn{
+	padding-top: 60px;
+}
+
+#padding_top_meeting_btn{
+	padding-top : 60px;
+}
+
+#table_heading{
+	padding-bottom: 40px;
+}
+
+#map{
+	height:;
+}
+
+#translate_button{
+	padding-top: 75px;
 }
