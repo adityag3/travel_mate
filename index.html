@@ -7,6 +7,7 @@
 
     <title>Travel Mate</title>
 
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/css01.css">
@@ -23,7 +24,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Travel Mate</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -35,8 +36,28 @@
       </div>
     </nav>
 
-    <section>
-
+    <section >
+          <div class="container-fluid" >
+             <form  action="destination_guide.html"  >
+                <div class="row" >
+                    <div class="col-md-4 col-md-offset-1 form-group" id="margin" >
+                      <label>Initial Location</label>
+                      <input id="source" type="text" class="form-control" placeholder="Enter Location" >
+                    </div>
+                    <div class="col-md-4 col-md-offset-1 form-group" id="margin" >
+                      <label>Destination</label>
+                      <input id="destination" type="text" class="form-control" placeholder="Enter Destination" >
+                    </div>
+                    <div class="col-md-11 col-md-offset-1 checkbox" id="margin2" >
+                  <div class="radio">
+                    <label><input id="destination_language_checker" type="radio" name="optradio">Are you familiar with destination language</label>
+                  </div>
+                </div>
+                    <div class="col-md-2 col-md-offset-1" >
+                      <button id="next_button" type="submit" class="btn btn-default">Next</button>
+                    </div>
+              </form>
+        </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
